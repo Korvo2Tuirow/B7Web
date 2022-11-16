@@ -52,3 +52,27 @@ if(validacao) {
 }else{
   console.log("Acesso Negado")
 }
+
+function teste(num1){
+  switch(num1){
+    case 1:
+      console.log("Seu numero foi o um");
+      break;
+
+      case 2:
+      console.log("Seu numero foi o dois");
+      break;
+
+      case 3:
+      console.log("Seu numero foi o tres");
+      break;
+  }
+
+  
+}
+
+
+
+teste(3);
+
+console.log(num1)
