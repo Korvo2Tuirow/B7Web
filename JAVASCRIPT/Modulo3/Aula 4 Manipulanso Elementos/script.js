@@ -7,8 +7,7 @@ function clicou(){
 
 
 function clicou2(){
-  const teste =document.querySelector('#teste');
-   const teste2 = document.querySelector('#teste2');
+     const teste2 = document.querySelector('#teste2');
    const ul2 = teste2.querySelector('ul');
    ul2.innerHTML = "<li> Item alterado</li>";
 }
@@ -71,6 +70,28 @@ function clicou7(){
 
   
 
+
+
+let teste8 = document.querySelector("#teste8");
+
+console.log(teste8);
+
+ /*function cname(){
+   let primeiro = prompt("Digite seu nome");
+
+  
+
+  
+  
+  }*/
+
+
+
+
+
+
+
+console.log(teste8);
 
 
 
