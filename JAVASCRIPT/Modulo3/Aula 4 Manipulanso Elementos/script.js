@@ -74,24 +74,32 @@ function clicou7(){
 
 let teste8 = document.querySelector("#teste8");
 
-console.log(teste8);
 
- /*function cname(){
+ function cname(){
    let primeiro = prompt("Digite seu nome");
-
-  
-
-  
-  
-  }*/
+ 
+  teste8.innerText = `Bem vindo ${primeiro}`;
+ 
+  }
 
 
 
+  /////////////////////////////////////
+
+  let segundo = document.querySelector('.number');
+  let spn = document.querySelector('.spn');
+
+function clck() {
+  while(segundo < 20){
+    spn.innerText += segundo;
+    segundo++
+  }
+}
 
 
 
 
-console.log(teste8);
+
 
 
 
