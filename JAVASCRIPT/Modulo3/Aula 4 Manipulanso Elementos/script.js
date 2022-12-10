@@ -53,6 +53,7 @@ add.append (btn) ;
 function clicou7(){
   const newUl = document.createElement("ul");
   const add = document.querySelector("body") 
+
   for(let i = 1; i <5; i++){
    let newLi2 = document.createElement("li");
    newLi2.innerHTML = "item adicionado" + ' ' +i;
@@ -85,15 +86,28 @@ let teste8 = document.querySelector("#teste8");
 
 
   /////////////////////////////////////
+ let spn = document.querySelector('.spn');
+  
+function clk(){
 
-  let segundo = document.querySelector('.number');
-  let spn = document.querySelector('.spn');
+  let segundo = document.querySelector('#number'); 
 
-function clck() {
-  while(segundo < 20){
-    spn.innerText += segundo;
-    segundo++
-  }
+  let valor = segundo.valueAsNumber;
+
+  console.log (typeof valor);
+
+  for(v1=valor; v1<20; v1 += 2 ){
+    
+    console.log (v1);
+
+   let lele = document.createElement('span');
+   spn.append(lele);
+
+   lele.innerHTML = `<br>${v1}`;
+   
+   }
+
+
 }
 
 
