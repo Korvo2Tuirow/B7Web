@@ -321,6 +321,18 @@ article .comment ul li {
     text-decoration: none;
     
   }
+#widget_make{
+  margin-top: 60px;
+}
+
+  .widget_content{
+    margin-top: 20px;
+    font-size: 14px;
+    color: var(--color2);
+  }
+
+
+
 
   
 /*************FOOTER*************/
@@ -344,18 +356,36 @@ footer {
 .fm_2,
 .fm_3 {
   flex: 1;
+  height: 100px;
+  padding-top: 20px;
+  font-size: 23px;
+  padding-left: 30px;
+ 
+  
 }
+
+
+.link_fm a{
+  font-size: 14px;
+  margin-top: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
 
 .fm_1 {
   background-color: var(--color1);
+  
 }
 
 .fm_2 {
   background-color: var(--color3);
+ 
 }
 
 .fm_3 {
   background-color: var(--color4);
+  h
 }
 
 .footer_area {
@@ -376,3 +406,6 @@ footer .widget_title_text {
   border-top: solid 1px #5c5c5c;
   padding: 15px 0px 15px 0px;
 }
+
+
+/*---------------------------------*/
